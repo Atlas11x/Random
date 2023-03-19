@@ -4,10 +4,10 @@
 
 int main()
 {
-    int a;
+    int result_from_int_function_with_name_get_random_value;
 //how to use:
-    a = get_random_value(0, 10);
-    printf("%d\n", a);
+    result_from_int_function_with_name_get_random_value = get_random_value(0, 10);
+    printf("%d\n", result_from_int_function_with_name_get_random_value);
 //    cout << "Hello World!" << endl;
 
     //char* str1 = "first";      //for struct
