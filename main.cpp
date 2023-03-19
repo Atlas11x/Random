@@ -1,10 +1,13 @@
-#include <stdio.h>   // чтобы пользоваться функцией printf
-#include <stdlib.h>  // чтобы пользоваться функцией rand
-#include <time.h>    // чтобы использовать функцию time
-#include <Arandom.h>
+#include "Arandom.h"
+#include <iostream>
+
 
 int main()
 {
+    int a;
+//how to use:
+    a = get_random_value(0, 10);
+    printf("%d\n", a);
 //    cout << "Hello World!" << endl;
 
     //char* str1 = "first";      //for struct
@@ -51,7 +54,7 @@ int main()
 //   cout << progress << endl;
 
    for(int i =0; i<50; ++i){
-       cout << progress;
+       std::cout << progress;
 
        for(int j =0; j<100000; ++j){
 
