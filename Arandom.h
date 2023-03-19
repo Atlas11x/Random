@@ -5,5 +5,5 @@
 #include <time.h>
 
 int get_random_value(int _low_border, int _top_border);
-bool isEmpty(char _str[20]);
+bool isEmpty(char *_str, int _size);
 #endif // ARANDOM_H

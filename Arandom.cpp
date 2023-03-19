@@ -6,10 +6,10 @@ int get_random_value(int _low_border, int _top_border){
 }
 
 
-bool isEmpty(char _str[20]){
+bool isEmpty(char *_str, int _size){
     if(_str[0]=='\0'){
-        return 1;
+        return true;
     }
 
-return 0;
+return false;
 }
