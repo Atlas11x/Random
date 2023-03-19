@@ -23,7 +23,7 @@ int Arand(int _min, int _max){
 
 
 bool isEmpty(char _str[20]){
-    if(_str=="\0"){
+    if(_str[0]=="\0"){
         return 1;
     }
 return 0;
