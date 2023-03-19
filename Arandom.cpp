@@ -1,9 +1,8 @@
 #include "Arandom.h"
-#include<time.h>
 
-int Arand(int _min, int _max){
+int get_random_value(int _low_border, int _top_border){
     srand(time(NULL));
-    return _min + rand()%(_max-_min+1);
+    return _low_border + rand()%(_top_border-_low_border+1);
 }
 
 

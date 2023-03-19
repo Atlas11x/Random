@@ -1,33 +1,7 @@
-#include <iostream>
 #include <stdio.h>   // чтобы пользоваться функцией printf
 #include <stdlib.h>  // чтобы пользоваться функцией rand
-#include <time.h>    // чтобы использовать функцию time()
-
-//https://youngcoder.ru/lessons/4/sluchainie_chisla_na_c.php
-
-//useful
-//https://ru.wikipedia.org/wiki/Stdlib.h
-//https://ru.wikipedia.org/wiki/Unix-%D0%B2%D1%80%D0%B5%D0%BC%D1%8F
-
-
-//В общем случае если нам нужно получить числа из отрезка [A;B],
-//то необходимо воспользоваться следующей конструкцией:
-//A + rand()%(B-A+1)
-
-using namespace std;
-
-int Arand(int _min, int _max){
-    srand(time(NULL));
-    return _min + rand()%(_max-_min+1);
-}
-
-
-bool isEmpty(char _str[20]){
-    if(_str[0]=='\0'){
-        return 1;
-    }
-return 0;
-}
+#include <time.h>    // чтобы использовать функцию time
+#include <Arandom.h>
 
 int main()
 {

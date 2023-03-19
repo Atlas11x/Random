@@ -1,10 +1,9 @@
 #ifndef ARANDOM_H
 #define ARANDOM_H
-#include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-int Arand(int _min, int _max);
+int get_random_value(int _low_border, int _top_border);
 bool isEmpty(char _str[20]);
 #endif // ARANDOM_H
