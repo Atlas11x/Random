@@ -4,4 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        Arandom.cpp \
         main.cpp
+
+HEADERS += \
+    Arandom.h
